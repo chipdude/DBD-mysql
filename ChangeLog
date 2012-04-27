@@ -1,3 +1,7 @@
+2012-04-26 Chip Salzenberg <chip@pobox.com> (4.020_01)
+* Fix spurious errors suggesting AutoCommit is not supported due to simple command error
+* Fix various C errors
+
 2011-08-15 Patrick Galbraith <patg at patg dot net> (4.020)
 * Numerous (!! Thank you!!) fixes for prepared statements: Masahiro Chiba <nihen at megabbs
 dot com>
@@ -11,7 +15,6 @@ paging (Masahiro Chiba)
 * Documentation fix for auto_reconnect (Karen Etheridge <ether at cpan dot
 org>)
 * Win32 and general installation fixes (Alexandr Ciornii, http://chorny.net)
-
 
 2011-05-08 Patrick Galbraith <patg at patg dot net>  Rob Hoelz <rhoelz at inoc dot com> (4.019)
 * Asynchronous support added by Rob Hoelz - Thanks!
