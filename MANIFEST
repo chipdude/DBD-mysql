@@ -73,3 +73,4 @@ ChangeLog
 MANIFEST
 mysql.xs
 META.yml                                Module meta-data (added by MakeMaker)
+META.json                               Module meta-data (added by MakeMaker)

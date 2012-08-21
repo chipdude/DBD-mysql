@@ -1,27 +1,26 @@
---- #YAML:1.0
-name:               DBD-mysql
-version:            4.021
-abstract:           A MySQL driver for the Perl5 Database Interface (DBI)
+---
+abstract: 'A MySQL driver for the Perl5 Database Interface (DBI)'
 author:
-    - Rudy Lippan <rlippan@remotelinux.com>
-license:            perl
-distribution_type:  module
-configure_requires:
-    DBI:  1.08
+  - 'Rudy Lippan <rlippan@remotelinux.com>'
 build_requires:
-    ExtUtils::MakeMaker:  0
-requires:
-    Data::Dumper:  0
-    DBI:           1.08
-    perl:          5.005
-    Test::More:    0
-resources:
-    repository:  https://github.com/CaptTofu/DBD-mysql
-no_index:
-    directory:
-        - t
-        - inc
-generated_by:       ExtUtils::MakeMaker version 6.55_02
+  Test::More: 0
+configure_requires:
+  DBI: 1.08
+dynamic_config: 0
+generated_by: 'ExtUtils::MakeMaker version 6.55_02, CPAN::Meta::Converter version 2.120921'
+license: perl
 meta-spec:
-    url:      http://module-build.sourceforge.net/META-spec-v1.4.html
-    version:  1.4
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: DBD-mysql
+no_index:
+  directory:
+    - t
+    - inc
+requires:
+  DBI: 1.08
+  Data::Dumper: 0
+  perl: 5.005
+resources:
+  repository: https://github.com/CaptTofu/DBD-mysql
+version: 4.021
